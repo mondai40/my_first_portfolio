@@ -1,5 +1,11 @@
+
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	margin: 0px;
 	font-family: "Baskerville";	
 }
 
@@ -10,6 +16,9 @@ header {
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 }
+ul {
+	line-height: 65px;
+}
 .header-right li {
 	display: inline-block;
 	padding: 0px 10px;
@@ -17,12 +26,11 @@ header {
 
 .container {
 	padding: 50px;
+	text-align: center;
 }
 
-.myInfo {
-	width: 100%;
-	margin: 0px auto;
-}
 .myInfo img {
-	
+	width: 50%;	
+	border-radius: 50%;
+	margin-bottom: 20px;
 }
