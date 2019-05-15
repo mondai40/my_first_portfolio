@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+	font-family: "Baskerville";	
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	height: 65px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.header-right li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.container {
+	padding: 50px;
+}
+
+.myInfo {
+	width: 100%;
+	margin: 0px auto;
+}
+.myInfo img {
+	
+}
