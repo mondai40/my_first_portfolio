@@ -1,8 +1,15 @@
+* {
+	box-sizing: border-box;
+}
 
 html, body, ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
 	margin: 0;
 	padding: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 body {
@@ -19,9 +26,13 @@ header {
 ul {
 	line-height: 65px;
 }
+
 .header-right li {
 	display: inline-block;
 	padding: 0px 10px;
+}
+.header-right a {
+	color: white;
 }
 
 .container {
@@ -29,8 +40,26 @@ ul {
 	text-align: center;
 }
 
+.info-wrapper {
+	background-image: url("../img/startup-593327_1920.jpg");
+	background-size: cover;
+
+}
 .myInfo img {
-	width: 50%;	
+	width: 300px;
+	height: 350px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+}
+
+.skill {
+	float: left;
+	width: 25%;
+}
+.skill img {
+	width: 250px;
+	height: 300px;
+}
+.clear {
+	clear: both;
 }
