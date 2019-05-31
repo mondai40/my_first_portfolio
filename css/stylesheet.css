@@ -52,6 +52,13 @@ ul {
 	margin-bottom: 20px;
 }
 
+.works-wrapper {
+	background-color: #eee;
+}
+
+.heading h2 {
+	padding-bottom :50px;
+}
 .skill {
 	float: left;
 	width: 25%;
@@ -60,6 +67,36 @@ ul {
 	width: 250px;
 	height: 300px;
 }
+.skill p {
+	margin-top: 10px;
+}
+.skill-text {
+	width: 80%;
+	font-size: 12px;
+	display: inline-block;
+	color: gray;
+}
 .clear {
 	clear: both;
+}
+.contact-wrapper {
+	border-bottom: 1px solid #eee;
+}
+.btn {
+	background-color: #229b76;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 24px;
+	opacity: 0.7;
+	box-shadow: 0px 7px #107940;
+}
+.btn:hover {
+	opacity: 1.0;
+}
+.btn:active {
+	box-shadow: none;
+	position: relative;
+	top: 7px;
 }
