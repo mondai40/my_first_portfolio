@@ -17,11 +17,18 @@ body {
 }
 
 header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+}
+
+.header-div {
 	display: flex;
 	justify-content: flex-end;
 	height: 65px;
 	width: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 }
 ul {
 	line-height: 65px;
@@ -45,6 +52,10 @@ ul {
 	background-size: cover;
 
 }
+.myInfo {
+	padding-top: 80px;
+}
+
 .myInfo img {
 	width: 300px;
 	height: 350px;
