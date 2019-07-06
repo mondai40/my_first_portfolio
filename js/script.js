@@ -3,7 +3,7 @@ $(document).ready(function() {
         var id = $(this).attr("href");
         var position = $(id).offset().top;
         $("html, body").animate({
-            "scrollTop": position
+            "scrollTop": position - 65
         }, 500);
     });
 });
