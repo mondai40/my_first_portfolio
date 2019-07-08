@@ -90,6 +90,16 @@ ul {
 .clear {
 	clear: both;
 }
+.skill-icon {
+	position: relative;
+}
+.skill-icon p {
+	position: absolute;
+	width: 100%;
+	top: 150px;
+	color: white;
+}
+
 .contact-wrapper {
 	border-bottom: 1px solid #eee;
 }
