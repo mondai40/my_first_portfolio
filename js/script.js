@@ -9,19 +9,11 @@ $(document).ready(function() {
 
     $(".skill").hover(
         function() {
-            // $(this).find(".skill-icon").find("p").animate({"color": "red"}, 500);
-            $(this).find(".skill-icon").find("p").css("color", "blue");
-                // "font-size": 150%,
-                // "font-color": red,
-                // font-weight: bold
+            $(this).find(".skill-text").css("color", "rgba(128,128,128, 1.0)");
             
         }, 
         function() {
-            // $(this).find(".skill-icon").find("p").animate({"color": "blue"}, 500);
-            $(this).find(".skill-icon").find("p").css("color", "blue");
-                // "font-size": 100%,
-                // "font-color": white,
-                // font-weight: normal
+            $(this).find(".skill-text").css("color", "rgba(128,128,128, 0.0)");
             
        }
     );
